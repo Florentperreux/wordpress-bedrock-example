@@ -170,10 +170,10 @@ if (env('CELLAR_ADDON_BUCKET')) {
     define('S3_UPLOADS_BUCKET_URL', 'https://' . env('CELLAR_ADDON_BUCKET') . '.' . env('CELLAR_ADDON_HOST'));
     define('S3_UPLOADS_ENDPOINT', 'https://' . env('CELLAR_ADDON_HOST'));
 }
-define('COOKIEPATH', '/');
-define('SITECOOKIEPATH', '/wp/');
-define('ADMIN_COOKIE_PATH', '/wp/wp-admin/');
-define('COOKIE_DOMAIN', '');
+Config::define('COOKIEPATH', '/');
+Config::define('SITECOOKIEPATH', '/wp/');
+Config::define('ADMIN_COOKIE_PATH', '/wp/wp-admin/');
+Config::define('COOKIE_DOMAIN', '');
 /**
  * Debugging Settings
  */
