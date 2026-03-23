@@ -51,6 +51,7 @@
     "wpackagist-plugin/mailgun": "^1.9",
     "wpackagist-plugin/demo-importer-plus": "*",
     "wpackagist-plugin/elementor": "*",
+    "wpackagist-plugin/elementor": "*",
     "wp-theme/twentytwentyfive": "^1.0",
     "wpackagist-theme/pixgraphy": "*"
   },
